@@ -1,0 +1,6 @@
+rich
+colorama>=0.4.4
+datetime
+requests
+PyExecJS
+json
