@@ -204,7 +204,7 @@ def gui_update():
             sys.exit()
         execute_command(command)
 
-
+'''
 def main_loop():
     while True:
         print_gui()
@@ -219,5 +219,17 @@ def main_loop():
         print(Fore.BLUE + final_print)
         z = Fore.BLUE
         input(f"{x}PRESS ENTER TO CONTINUE: ")
-
-main_loop()
+        '''
+        
+def mainint():
+    while True:
+        print_gui()
+        display_menu()
+        command = input(Fore.LIGHTCYAN_EX + '> ')
+        if command.lower() == 'exit':
+            print(Fore.GREEN + "Exiting APP!")
+            sys.exit()
+        execute_command(command)
+        input("PRESS ENTER TO CONTINUE: ")
+        
+mainint()
