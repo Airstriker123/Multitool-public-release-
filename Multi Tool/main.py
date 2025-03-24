@@ -217,7 +217,7 @@ def main_loop():
 
         final_print = "Choose another option!"
         print(Fore.BLUE + final_print)
-        time.sleep(5)
-
+        z = Fore.BLUE
+        input(f"{x}PRESS ENTER TO CONTINUE: ")
 
 main_loop()
